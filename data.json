@@ -1,0 +1,368 @@
+{
+ "ngay": [
+  {
+   "ngay": "2026-11-20",
+   "tin": [
+    {
+     "khoa": "https://himalayas.app/companies/portcast/jobs/data-analyst-intern",
+     "ten": "Data Analyst Intern",
+     "cong_ty": "Portcast",
+     "link": "https://himalayas.app/companies/portcast/jobs/data-analyst-intern?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 101 nước khác",
+     "loai": "Intern",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "Portcast is a venture-backed, Singapore-based logistics technology startup building a real-time transportation visibility platform for global supply chains. We help shippers, manufacturers, and logistics service providers turn data into decisions and decisions into measurable business impact.\nOur platform goes beyond visibility. Portcast enables action at scale by surfacing the right risks early, helping teams prevent detention and demurrage, accelerate exception management, and close invoices faster with built-in evidence. We turn visibility into outcomes: reduced costs, improved operational control, and more predictable supply chains.\nFounded in 2018 and backed by leading technology investors, we are building for an industry at a critical inflection point of digital transformation. Our team of software engineers, data scientists, and logistics experts is on a mission to make supply chains not just visible, but decisively actionable: end to end.\nABOUT THE ROLE:\nPortcast runs on data, our engine predicts when, where, why, and by how many days a container will be delayed, and our customers trust those predictions to make actionable decisions. That trust depends on the data underneath being clean, connected, and reliable.\nAs our Data Analyst Intern, you'll join the Data team and work closely with our Data Analysts and Data Scientists, reporting to our Data Lead. Your focus will be on data integrations and quality, connecting new data sources into our system, checking the data we ingest for gaps and anomalies, and supporting the QA and automation work that keeps our ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/inv/jobs/investment-specialist-freelance-ai-trainer-project",
+     "ten": "Investment Specialist – Freelance AI Trainer Project",
+     "cong_ty": "Invisible Technologies",
+     "link": "https://himalayas.app/companies/inv/jobs/investment-specialist-freelance-ai-trainer-project?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Contractor",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "Are you knowledgeable about investments and eager to shape the future of AI? Large-scale language models are evolving from simple conversational tools into systems capable of analyzing financial markets, interpreting investment strategies, and supporting decision-making across asset classes. With high-quality training data, tomorrow’s AI can help improve financial literacy, strengthen portfolio analysis, and support investors and analysts worldwide. That training data begins with you—we need your expertise to help power the next generation of AI.\nWe’re looking for individuals with familiarity in areas such as equity and fixed-income markets, portfolio management, asset allocation, derivatives, valuation methods, financial modeling, risk management, behavioral finance, and macroeconomic influences on markets. You’ll challenge advanced language models on topics such as fundamental and technical analysis, portfolio construction, diversification strategies, market cycles, performance evaluation, and investment research—documenting failure modes so we can strengthen model reasoning and analytical accuracy.\nOn a typical day, you will engage the model with investment scenarios, analytical questions, and market-based reasoning tasks; verify factual correctness and financial logic; assess the validity of investment reasoning; capture reproducible error traces; and provide structured feedback to improve prompts, evaluation frameworks, and analytical depth. You may also help identify where models oversimplify market behavior or misinterpret financial data.\nA background in finance, ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/inv/jobs/financial-institutions-specialist-freelance-ai-trainer-project",
+     "ten": "Financial Institutions Specialist – Freelance AI Trainer Project",
+     "cong_ty": "Invisible Technologies",
+     "link": "https://himalayas.app/companies/inv/jobs/financial-institutions-specialist-freelance-ai-trainer-project?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Contractor",
+     "dang": "2026-11-19",
+     "canh_bao": [
+      "Công ty này còn 5 tin tương tự hôm nay"
+     ],
+     "mo_ta": "Are you experienced in financial institutions and eager to shape the future of AI? Large-scale language models are evolving from simple conversational tools into systems capable of analyzing financial frameworks, interpreting regulatory structures, and supporting complex institutional decision-making. With high-quality training data, tomorrow’s AI can help strengthen financial literacy, improve risk analysis, and support professionals across banking and financial services. That training data begins with you—we need your expertise to help power the next generation of AI.\nWe’re looking for individuals with knowledge of banking systems, financial regulation, capital markets, retail and commercial banking, central banking, compliance, risk management, lending practices, financial products, and institutional governance. You’ll challenge advanced language models on topics such as balance sheet analysis, regulatory compliance frameworks, credit risk assessment, liquidity management, capital adequacy, anti-money laundering controls, financial reporting standards, and macroeconomic policy impacts—documenting failure modes so we can strengthen model reasoning and accuracy.\nOn a typical day, you will engage the model with financial institution scenarios, regulatory and compliance questions, and analytical exercises; verify factual correctness and institutional logic; assess risk-related reasoning; capture reproducible error traces; and provide structured feedback to improve prompts, evaluation frameworks, and analytical depth. You may also help identify where models oversimplify ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/bybit/jobs/animator-intern",
+     "ten": "Animator Intern",
+     "cong_ty": "Bybit",
+     "link": "https://himalayas.app/companies/bybit/jobs/animator-intern?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nội dung & Marketing",
+      "Thiết kế & Web"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 53 nước khác",
+     "loai": "Intern",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "About Us\nEstablished in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance.\nOur core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where talent is empowered to drive real impact at the global scale. Supported by 24/7 multilingual customer service and a strong commitment to innovation, we are shaping the future of finance through technology, collaboration, and bold execution.\nToday, Bybit is recognized as one of the most trusted and transparent platforms in the digital asset industry, continuing to expand its global presence while building the infrastructure for the next generation of financial services.\nResponsibilities\n- Create and edit high-quality video and motion content from brief to final delivery.\n- Animate typography, graphics, product visuals, UI elements, and campaign assets.\n- Edit videos with strong attention to pacing, transitions, music, sound design, and storytelling.\n- Work confidently across After Effects, Premiere Pro, and Figma.\n- Use AI creative tools for ideation, storyboarding, asset generation, ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/vaynermedia/jobs/content-creator",
+     "ten": "Content Creator",
+     "cong_ty": "VaynerMedia",
+     "link": "https://himalayas.app/companies/vaynermedia/jobs/content-creator?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing",
+      "Thiết kế & Web"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Part Time",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "NOTE: This Creator position is an entry-level, part-time, remote position. We are recruiting for roles outside the U.S., and candidates can anticipate 10-35 hours of work per week if offered the role. \nHi, everyone! This is Team GaryVee! \nWhenever we are looking to hire, the most frequently asked question is “Are you hiring internationally?” And now, for the first time ever, the answer is YES! \nWe are looking for kind, ambitious, talented, curious individuals who know Gary’s content like no other and are driven experts of social media! If you’re confident in your abilities to bring impact and value to Gary’s brand, keep reading. \nWe are Creators, creative industry rogues, Instagram-story lovers, community managers, and #foryoupage admirers. We are not just on the Internet; we are creating the stuff the internet wants to see. Whether that’s a viral TikTok video or the latest Twitter meme, we’re passionate storytellers. We move so fast and make so much good content. So, we need more folks, who can come up with compelling content ideas and then create them! We’re looking for the unconventional, less-obvious, unseasoned (or over seasoned) creative pros, but above all - passionate makers and culture shakers. \nWant in? We love dedicated video and design creators, subversive artists and illustrators, obsessive meme makers, and we don’t care if you’re fresh to the workforce or working on your third act. What’s your hustle? Documentarian? DJ? Sports junkie? Fashionista? Blogger? Vlogger? Redditor? Are you an Insta-feind? An unabashed TikTokker? Or both? We’re here for all of it... ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/david-kennedy-recruitment/jobs/junior-performance-marketer-mainstream",
+     "ten": "Junior Performance Marketer - Mainstream",
+     "cong_ty": "David Kennedy Recruitment",
+     "link": "https://himalayas.app/companies/david-kennedy-recruitment/jobs/junior-performance-marketer-mainstream?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 201 nước khác",
+     "loai": "Contractor",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "David Kennedy Recruitment is working with a fast-growing consumer AI company that is seeking to onboard a Junior Performance Marketer to join its Growth team.\nThe role focuses on hands-on paid acquisition across mainstream consumer channels, with responsibility for launching, testing and optimising campaigns. The successful candidate develops towards independently managing larger budgets while working closely with the CMO & Co-founder.\nPosition: Junior Performance Marketer - Mainstream\nLocation: Remote (Europe/Asia)\nEmployment type: B2B engagement preferred\nDUTIES AND RESPONSIBILITIES:\n- Launch and manage paid acquisition campaigns across consumer advertising platforms\n- Optimise campaigns based on CAC, ROAS, conversion and commercial performance\n- Test audiences, creatives and campaign strategies to improve performance\n- Monitor campaign results and identify opportunities for optimisation\n- Analyse performance data and translate findings into concrete actions\n- Take ownership of individual campaigns and clearly communicate personal contributions and results\n- Work towards independently managing larger acquisition budgets\nREQUIREMENTS:\n- Fluent in English, both written and spoken\n- Hands-on experience in paid acquisition or media buying\n- Proven experience personally launching and optimising campaigns\n- Experience with at least one scalable consumer acquisition platform such as Meta, TikTok, Google, Instagram or Reddit\n- Strong understanding of CAC, ROAS, conversion and commercial performance\n- Ability to clearly explain personal campaign contributions, actions and ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/abc-education/jobs/remote-assignment-grader-grades-6-12",
+     "ten": "Remote Assignment Grader (Grades 6–12)",
+     "cong_ty": "ABC Education",
+     "link": "https://himalayas.app/companies/abc-education/jobs/remote-assignment-grader-grades-6-12?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 10 nước khác",
+     "loai": "Part Time",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "Remote Assignment Grader (Grades 6–12)Polaris Global Academy | Fully Remote\nPolaris Global Academy is redefining how students learn and how educators support them. We are launching an innovative asynchronous learning model and are seeking experienced educators to join our growing, global team.\nThis role focuses on grading student-submitted asynchronous assignments for grades 6–12 across multiple subject areas. There is no live teaching involved.\nWork is part time, fully remote, paid $5 per assignment, and designed to offer flexible, location-independent income with growth potential as we scale.\nWhat You’ll Do\n- Review and grade asynchronous assignments for middle and high school students\n- Provide clear, rubric-aligned written feedback using our feedback model\n- Work independently while meeting turnaround expectation\nRequirements\n- Familiarity with US education system\n- Teaching or tutoring experience at the middle and or high school level\n- Familiarity with online learning platforms\n- Strong attention to detail and written communication\n- Ability to assess work in more than one subject area is a plus\nWhat We Offer\n- $5 per assignment with opportunities for increased volume as we scale\n- Fully asynchronous, remote work\n- Flexible schedule\n- International educator team and professional development opportunities\nIf you are an educator looking for flexible, part-time remote work in a forward-thinking learning model, we encourage you to apply.\nOriginally posted on Himalayas"
+    },
+    {
+     "khoa": "https://himalayas.app/companies/cybernetic-controls-limited/jobs/srb28-regulatory-paralegal-content-analyst",
+     "ten": "SRB28 Regulatory Paralegal Content Analyst",
+     "cong_ty": "Cybernetic Controls Limited",
+     "link": "https://himalayas.app/companies/cybernetic-controls-limited/jobs/srb28-regulatory-paralegal-content-analyst?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 53 nước khác",
+     "loai": "Full Time",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "Overview\nAt Cybernetic Controls Limited (CCL), we are committed to global leadership in providing innovative digital solutions that empower businesses to reach their full potential. As a remote-first company, we believe in empowering our employees to work in a way that best suits their individual needs, fostering a culture of flexibility and trust. Since our founding in 2020, we have successfully delivered high-quality resources to our clients in the FinTech sector across various business areas. Read more on the Cybernetic Controls website.\nJob Summary:\nThis is a structured entry-level role for a law graduate or newly qualified paralegal who wants to build deep expertise in financial services regulation while working at the frontier of regulatory technology. You'll be onboarded and mentored on the regulatory content — we don't expect you to arrive knowing MiFID II. We do expect you to be rigorous, curious, and committed to getting things exactly right.\nYou'll sit at the point where legal source material meets our data pipeline and machine learning models — reviewing regulatory change, validating how our models classify and structure that content, and making sure what appears in our platform matches the authoritative source line for line. You don't need to be a data scientist, but you'll become the human judgment that keeps the machine honest.\nKey Responsibilities\nReview regulatory change\n- Monitor and review changes to in-scope regulations and exchange rulebooks (e.g. EU and UK financial services regulation, exchange and CCP rulebooks).\n- Assess what has changed, when it ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes",
+     "ten": "Business Analyst Junior [Antifraud & Disputes]",
+     "cong_ty": "Banco Plata, S.A., Institución de Banca Múltiple",
+     "link": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Full Time",
+     "dang": "2026-11-19",
+     "canh_bao": [
+      "Có nhắc 1 năm kinh nghiệm"
+     ],
+     "mo_ta": "We’re looking for a Business Analyst to join our Antifraud & Disputes team.\nThe team is responsible for preventing fraud, developing fraud prevention processes, and implementing controls across the bank’s products and customer journeys. We continuously improve existing fraud prevention mechanisms and support new product launches, ensuring that fraud risks are addressed from the early stages of product development.\nChallenges that await you:\n- Gather, analyze, and document business requirements for fraud prevention tools and processes\n- Analyze existing fraud prevention processes and identify opportunities for improvement Investigate gaps in fraud controls, including false positives, false negatives, operational bottlenecks, and data quality issues\n- Translate business requirements into clear specifications and development tasks for Engineering and Data teams\n- Support the implementation and improvement of fraud prevention controls across existing and new products\n- Collaborate with Operations and Design teams to improve investigation workflows and case management tools\n- Analyze operational metrics to evaluate fraud control effectiveness and identify areas for optimization\n- Coordinate with cross-functional teams to support solution development, implementation, and rollout\n- Maintain clear and up-to-date documentation of business processes, requirements, and implemented solutions\nWhat makes you a great fit:\n- 1+ year of experience as a Business Analyst, Product Analyst, or in a related role (including internships)\n- Experience gathering, documenting, and managing business ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/curiogroup/jobs/multimedia-designer-contract",
+     "ten": "Multimedia Designer (contract)",
+     "cong_ty": "Curio Group",
+     "link": "https://himalayas.app/companies/curiogroup/jobs/multimedia-designer-contract?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing",
+      "Thiết kế & Web"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 10 nước khác",
+     "loai": "Contractor",
+     "dang": "2026-11-19",
+     "canh_bao": [
+      "Có nhắc 1 năm kinh nghiệm"
+     ],
+     "mo_ta": "About Curio\nCurio brings strategy, learning design, technology and delivery together to solve complex learning challenges as one connected system. Since 2016, we've helped education providers and organisations turn ambitious ideas into learning that people can use. We're a distributed team supported by a global Faculty community, working across higher education, vocational education, schools, professional learning and enterprise in seven countries.\nFind out more about us at \nPlease note\n- We are building our Curio talent pool in Southeast Asia for contract opportunities that are coming up in the future. Therefore, we are seeking multimedia designers.\nKindly note that this role is not guaranteed full time work.\n- We will be able to offer contract opportunities for multiple clients over a particular period of time (short-term and long-term). Based on suitability, we intend to take you through our recruitment process and onboard you into our 'talent pool', so that when the right opportunity arises in the next few weeks / months, we are able to engage and onboard you quite quickly.\nObjectives of this role\nThe Multimedia Designer brings learning and brand content to life through motion, video, and interactive media. You produce motion graphics, video content, and rich digital assets for client learning projects, Curio's marketing channels, and internal use - working across the full production cycle from brief to final export.\nYou are technically strong across the Adobe suite and confident with AI-powered production tools. You understand how visual and audio elements combine to ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/salve-inno-consulting/jobs/junior-performance-marketing-specialist-paid-acquisition-growth",
+     "ten": "Junior Performance Marketing Specialist (Paid Acquisition & Growth)",
+     "cong_ty": "Salve.Inno Consulting",
+     "link": "https://himalayas.app/companies/salve-inno-consulting/jobs/junior-performance-marketing-specialist-paid-acquisition-growth?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 101 nước khác",
+     "loai": "Contractor",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "About the Role\nWe are looking for a Junior Performance Marketing Specialist (Paid Acquisition & Growth) to join the Growth team of a fast-growing international consumer AI technology company. This is a hands-on performance marketing opportunity focused on launching, managing and optimising paid acquisition campaigns across mainstream digital advertising platforms, including Meta, TikTok, Google, Instagram and Reddit.\nYou will be responsible for managing campaigns directly, testing new audiences and creatives, analysing performance data and implementing improvements that drive customer acquisition and commercial growth. Working closely with the CMO & Co-founder and the wider Growth team, you will gain exposure to consumer marketing at scale while developing towards independently managing larger advertising budgets.\nThe ideal candidate already has practical experience running paid campaigns, understands key performance metrics such as CAC, ROAS and conversion rates, and can demonstrate measurable improvements resulting from their own actions. This is an execution-focused position rather than a purely analytical or reporting role. We are looking for someone who enjoys working directly within advertising platforms, experimenting with campaign strategies and continuously improving results.\nKey Responsibilities\n- Launch, manage and optimise paid acquisition campaigns across mainstream consumer advertising platforms.\n- Take direct ownership of individual campaigns, including setup, monitoring, testing and performance optimisation.\n- Manage campaigns across platforms such as Meta, ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/outright-international/jobs/internship-law-policy-and-research-spring-2027",
+     "ten": "Internship - Law, Policy, and Research - Spring 2027",
+     "cong_ty": "Outright International",
+     "link": "https://himalayas.app/companies/outright-international/jobs/internship-law-policy-and-research-spring-2027?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Intern",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "Outright is currently seeking an internationally minded intern for our Law, Policy, and Research program.\nThis person will have academic or professional experience with international queer human rights issues. This position is remote and can be performed anywhere in the world, and will report to Outright’s Senior Director for Law, Policy, and Research\nInternship will ideally run from January through April, with flexibility. \nRESPONSIBILITIES\n- Support the research team with desk-based research on LGBTIQ inclusion, equality, and access to fundamental human rights.\n- Draft a range of materials, such as background briefings, advocacy letters, and social media posts.\n- Monitor positive and negative legal and policy developments worldwide, including criminalization of same-sex relations, criminalization of gender diversity, non-discrimination legislation, access to legal gender recognition, freedom of association and expression, and changes in family law.\n- Update web-based resources to reflect new legal and policy developments.\nQUALIFICATIONS \n- Strong writing skills in English.\n- Ability to conduct research independently and organize findings into different formats, including short reports, tables, and spreadsheets.\n- Familiarity with human rights issues affecting LGBTIQ people in various parts of the world.\n- An undergraduate degree in a subject related to LGBTIQ issues, gender, law, or human rights, or, in rare cases, equivalent experience.\n- Proficiency in additional languages other than English is desirable.\nSalary: 50/day stipendOriginally posted on Himalayas"
+    },
+    {
+     "khoa": "https://himalayas.app/companies/jobs-boredpanda/jobs/junior-social-media-specialist",
+     "ten": "Junior Social Media Specialist",
+     "cong_ty": "bored panda",
+     "link": "https://himalayas.app/companies/jobs-boredpanda/jobs/junior-social-media-specialist?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 34 nước khác",
+     "loai": "Full Time",
+     "dang": "2026-11-19",
+     "canh_bao": [],
+     "mo_ta": "We’re Bored Panda Group – one of the world’s leading tech-driven media and entertainment companies, creating uplifting content in 17 languages for people of all ages. It all started in 2009 with a small online project that grew into an award-winning publisher, followed by Crafty Panda, the DIY channel that reached #1 on Facebook worldwide. Today, we’re three companies strong: , Bored Panda Studios and Spike. What connects us is the way we work: we combine creativity with data and AI, experiment fast and scale what works. The result? 660M+ page views and 60B+ views every year. Our 300+ Pandas work across 50 countries, with two offices in Vilnius, Lithuania – and here, your work can reach millions of people every day.\n is a leading global content publisher, entertaining millions of readers every day by feeding their curiosity with human-curated stories. Covering everything from humour and fascinating facts to celebrity stories and the hottest trending topics, this art and pop culture magazine consistently ranks among the top 5 digital content publishers. Our 100+ writers, editors, photo editors, SEO and social media experts track what readers love in real time to find stories worth every minute. Readers agree: they spend around 1 billion minutes with our content every year. Right now, we’re looking for a talented Junior Social Media Specialist to join the team behind it all. Get ready to cure boredom all over the world!\nWhat You Will Do:\n- Assist in managing and growing our Facebook account;\n- Create, schedule, and publish engaging content (text, images, and short videos);\n- ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
+     "ten": "SMM Specialist",
+     "cong_ty": "Growe Talents",
+     "link": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Full Time",
+     "dang": "2026-11-19",
+     "canh_bao": [
+      "Có nhắc 1 năm kinh nghiệm"
+     ],
+     "mo_ta": "Our client is an international online gaming company focused on delivering engaging and innovative gaming experiences, leveraging modern technologies to provide high-quality products and services for a global audience.\nPerfect for those who aim to:\n- Manage and grow the product’s social media presence across Instagram, TikTok, X (Twitter), and Telegram, adapting content to target markets and GEOs;\n- Create engaging content using AI tools, including the generation of AI models, characters, images, and videos;\n- Develop and execute content calendars aligned with iGaming campaigns, promotions, tournaments, seasonal events, and key industry trends;\n- Produce and adapt UGC-style and native content formats optimized for TikTok, Reels, and Shorts;\n- Monitor social media trends, competitor activities, and emerging content opportunities within the iGaming space;\n- Collaborate closely with designers and the branding team to ensure consistent visual identity and messaging across all channels;\n- Support audience growth, engagement, and brand awareness initiatives through creative and data-driven content strategies;\n- Continuously test new content formats, creative concepts, and AI-driven workflows to improve performance and efficiency.\nExperience you’ll need to bring:\n- At least 1 year of experience in Social Media Marketing (SMM);\n- Experience in iGaming, betting, or casino projects is a strong advantage;\n- Familiarity with social media platform policies and restrictions related to iGaming, with the ability to operate effectively within compliance constraints;\n- Strong visual taste ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate-5074128877",
+     "ten": "Expert Talent Pool, Annotation Associate",
+     "cong_ty": "Clera",
+     "link": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate-5074128877?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nội dung & Marketing",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "15–35 USD/giờ",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Full Time",
+     "dang": "2026-11-18",
+     "canh_bao": [],
+     "mo_ta": "About the Role\nJoin an expert network supporting AI training projects as an annotation specialist. You will label a variety of data types to help improve how AI systems learn, with project matching based on your background.\nWhat You'll Do\n- Classify images, video, audio, and documents according to detailed guidelines.\n- Annotate 2D and 3D data using boxes, polygons, masks, cuboids, and segments.\n- Track objects across video frames and label actions and temporal events.\n- Tag entities in text, including names, places, products, and dates.\n- Transcribe audio, extract text from scans and photos, and label sounds and speakers.\n- Annotate satellite and geospatial imagery and link records across sensors.\nWhat We're Looking For\n- Experience with annotation, labeling, transcription, GIS, QA, or other precise visual or language work; the role is listed for candidates with 0 to 5 years of experience.\n- Hands-on experience labeling or checking images, video, LiDAR, point clouds, audio, text, or maps, or relevant adjacent work such as GIS mapping, subtitling, media editing, or linguistic coding.\n- Ability to follow detailed written guidelines and maintain consistent labels.\n- Familiarity with tools such as Label Studio, CVAT, Labelbox, Supervisely, ELAN, QGIS, or similar platforms.\n- Relevant study or experience in linguistics, geography, GIS, computer science, media, or a related field is valuable.\n- A reliable internet connection and access to a desktop or laptop computer.\nCompensation & Benefits\nCompensation is $15 to $35 per hour, depending on project, field, and experience. ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/resilio-partners/jobs/business-community-manager-founder-network-remote",
+     "ten": "Business Community Manager — Founder Network (Remote)",
+     "cong_ty": "Resilio Partners",
+     "link": "https://himalayas.app/companies/resilio-partners/jobs/business-community-manager-founder-network-remote?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing"
+     ],
+     "luong": "40,000–50,000 USD/năm (khoảng 110tr/tháng)",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Full Time",
+     "dang": "2026-11-17",
+     "canh_bao": [],
+     "mo_ta": "IMPORTANT: DO NOT try to contact us in other platforms/sources to get our attention during this process. Anyone who is caught doing that will be banned immediately.\nAbout the role\nResilio Partners helps founders and team leaders turn vague instructions into clear, step-by-step guides and check their team’s work automatically. Through our Leadership Support Program, we also help growing businesses find people to lead, build a community, and get in front of partners and investors.\nWe’re looking for a Business Community Manager to build and run our founder network. You should have built or run a business before. You know how hard it can be to grow a company and lead a team, and how much a good network of fellow founders helps. Your job is to build that network around our community, InstructJet: a community where founders support, learn from, and promote each other.\nWhat you’ll do\n- Build and manage an active community of founders, business owners, and team leaders\n- Run a cross-promotion program where members help promote each other’s businesses\n- Organize, host, or speak at online networking events (in-person events are optional; no travel is required)\n- Keep members engaged with regular conversations, content, and chances to connect\n- Develop partnerships with business communities, accelerators, and founder networks\n- Talk to members regularly to understand their challenges in leading teams and growing their business, and bring those insights back to the team\nWho we’re looking for\n- You have an interest in entrepreneurship, business, or helping businesses grow\n- You have ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
+     "ten": "Video Data Annotator",
+     "cong_ty": "micro1",
+     "link": "https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Contractor",
+     "dang": "2026-11-16",
+     "canh_bao": [],
+     "mo_ta": "Role Title: Video Data Annotator\nRole Type: Contractor\nLocation: Remote\nmicro1 is engaging Video Data Annotators to contribute expertise and precision to a customer’s project focused on the advancement of artificial intelligence. In this role, you'll apply your expertise to help train next-generation AI systems. Your work will shape how models learn, reason, and perform through high-quality, real-world input. No prior experience in AI is required — your domain knowledge is what matters.\nScope of Work\n- Review and annotate short video and audio clips, labeling content accurately based on project-specific guidelines.\n- Assess the accuracy and appropriateness of AI-generated descriptions for diverse multimedia content.\n- Evaluate content compliance against clear moderation standards, flagging uncertain or inappropriate material with detailed rationale.\n- Provide clear, concise written feedback highlighting potential inaccuracies or ambiguities in AI outputs.\n- Maintain rigorous attention to detail and consistency in annotation, ensuring data integrity across high volumes of submissions.\n- Collaborate remotely with project managers and fellow specialists to clarify guidelines and support process improvements.\n- Safeguard all project data, adhering strictly to confidentiality and data protection standards.\nPreferred Qualifications\n- Demonstrated experience with video and audio annotation, content labeling, or content moderation for digital platforms.\n- Strong command of English, with the ability to communicate feedback and findings clearly in written form.\n- Excellent attention ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/bjak/jobs/business-operations-associate-5902594351",
+     "ten": "Business Operations Associate",
+     "cong_ty": "Bjak",
+     "link": "https://himalayas.app/companies/bjak/jobs/business-operations-associate-5902594351?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam",
+     "loai": "Full Time",
+     "dang": "2026-11-14",
+     "canh_bao": [],
+     "mo_ta": "About Act\nThere are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. \nOur first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high quality tasks and collaboration at scale with minimal or little prompting.\nAbout the Role\nYou will work closely with core teams on the highest impact initiatives across engineering, product, hiring, operations, and business development. As the company grows, you'll help solve new challenges, build new capabilities, and drive execution wherever it matters most.\nWe're looking for people who learn quickly, think deeply, and enjoy solving difficult problems in a fast-moving environment.\nWhat You Will Be Doing\n- Drive high-priority initiatives across the business.\n- Work with leadership to solve business and product challenges.\n- Build new teams, processes, and capabilities as the company grows.\n- Lead cross-functional projects from planning through execution.\n- Research new markets, products, and business opportunities.\n- Improve how we operate by identifying problems and implementing practical solutions.\n- Take ownership ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/bjak/jobs/strategy-operations-associate-1538626560",
+     "ten": "Strategy & Operations Associate",
+     "cong_ty": "Bjak",
+     "link": "https://himalayas.app/companies/bjak/jobs/strategy-operations-associate-1538626560?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam",
+     "loai": "Full Time",
+     "dang": "2026-11-14",
+     "canh_bao": [],
+     "mo_ta": "About Act\nThere are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. \nOur first application is an agent-first mobile communication app. We believe building applications that users use daily for communication, coordination and collaboration needs will help integrate AI into their lives. The net effect is to eliminate misinformation, achieve low coordination costs, enable high-quality tasks and collaboration at scale with minimal or little prompting.\nAbout the Role\nYou will work closely with core teams on the highest impact initiatives across engineering, product, hiring, operations, and business development. As the company grows, you'll help solve new challenges, build new capabilities, and drive execution wherever it matters most.\nWe're looking for people who learn quickly, think deeply, and enjoy solving difficult problems in a fast-moving environment.\nWhat You Will Be Doing\n- Drive high-priority initiatives across the business.\n- Work with leadership to solve business and product challenges.\n- Build new teams, processes, and capabilities as the company grows.\n- Lead cross-functional projects from planning through execution.\n- Research new markets, products, and business opportunities.\n- Improve how we operate by identifying problems and implementing practical solutions.\n- Take ownership ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/micro1/jobs/ai-conversation-evaluator",
+     "ten": "AI Conversation Evaluator",
+     "cong_ty": "micro1",
+     "link": "https://himalayas.app/companies/micro1/jobs/ai-conversation-evaluator?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Contractor",
+     "dang": "2026-11-12",
+     "canh_bao": [
+      "Công ty này còn 2 tin tương tự hôm nay"
+     ],
+     "mo_ta": "Role Title: AI Conversation Evaluator\nRole Type: Contractor\nLocation: Remote – Global (English required)\nOpportunity Snapshot\nPay: $45–70/hour\nTime commitment: Approximately 7.5 hours total\nProject kickoff: Sunday, November 15\nProject duration: Short-term project, expected to run through November 18\nYou'll need: An active personal ChatGPT account (Free or Plus), access to a computer or smartphone, and availability during the project window.\nYour tasks: Interact with different versions of an AI assistant through everyday conversations, compare the overall experience, and provide structured ratings and brief written feedback.\nAbout the role\nAI assistants are becoming part of everyday life, helping people with everything from writing emails and planning trips to answering questions and solving problems. We want to understand how natural, helpful, and enjoyable these interactions feel from the perspective of real users. That's where you come in.\nYou'll test different AI experiences using your own ChatGPT account, engage in everyday conversations, and share your feedback on what worked, what didn't, and which experience you preferred.\nWhat you'll do\n- Engage in a series of natural, multi-turn conversations with different AI assistants.\n- Use everyday scenarios such as writing, planning, researching, brainstorming, or asking questions.\n- Compare AI responses and select your preferred experience.\n- Evaluate conversational quality, helpfulness, clarity, tone, and overall user satisfaction.\n- Identify behaviors that feel unnatural, repetitive, or unnecessary.\n- Provide short ..."
+    }
+   ],
+   "da_quet": 259,
+   "da_bo": {
+    "loại việc không làm": 93,
+    "đòi ngoại ngữ khác": 38,
+    "lương giờ thấp": 2,
+    "đòi 5 năm": 4,
+    "không thuộc nhóm hợp": 22,
+    "công ty đã bỏ": 22,
+    "tin cũ": 13,
+    "đòi 2 năm": 5,
+    "đòi 3 năm": 2,
+    "cấp cao": 3,
+    "đòi 8 năm": 1,
+    "đã nộp hoặc đã bỏ": 3,
+    "không rõ là tin cho người mới": 9,
+    "cùng công ty, đã gộp": 7
+   }
+  }
+ ],
+ "cap_nhat": "2026-11-20 13:35"
+}
