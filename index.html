@@ -59,6 +59,14 @@ h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;margin:0;letter-spacing:-.
 .muc-luc small.du{color:var(--xong);font-weight:600}
 .chan{margin-top:auto;color:var(--mo);font-size:12px;line-height:1.5}
 .chan button{border:0;background:none;padding:0;color:var(--chinh);font:inherit;text-decoration:underline;cursor:pointer}
+.ket-noi{display:flex;flex-direction:column;gap:8px;font-size:13px}
+.trang-thai{color:var(--nhat)}
+.trang-thai.ok{color:var(--xong)}
+.trang-thai.loi{color:var(--luu-y)}
+.ket-noi label{display:block;color:var(--nhat);margin-bottom:6px}
+.hang-ma{display:flex;gap:6px}
+.hang-ma input{flex:1;min-width:0;border:1px solid var(--vach);background:var(--the);color:var(--chu);border-radius:8px;padding:7px 10px;font:13px "Be Vietnam Pro",sans-serif}
+.chan .hang-ma button{background:var(--chinh);color:var(--the);text-decoration:none;border-radius:8px;padding:7px 12px;font-weight:600}
 
 /* ----- noi dung ----- */
 .phai{padding:32px clamp(16px,4vw,48px) 80px;max-width:980px;width:100%}
@@ -146,21 +154,113 @@ h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;margin:0;letter-spacing:-.
       <div class="muc-luc-tieu">Theo ngày</div>
       <ul class="muc-luc" id="mucLuc"></ul>
     </nav>
-    <div class="chan">
-      Dấu tick lưu trên trình duyệt này. Đổi máy thì <button id="saoLuu">tải bản sao lưu</button> rồi <button id="khoiPhuc">khôi phục</button> ở máy kia.
-      <input type="file" id="fileKhoiPhuc" accept="application/json" class="an">
+    <div class="chan ket-noi">
+      <div id="trangThai" class="trang-thai">Đang lấy dấu tick...</div>
+      <form id="formMa" class="an">
+        <label for="oMa">Dán mã GitHub để tick tự lưu lên mạng, máy nào mở cũng thấy.</label>
+        <div class="hang-ma">
+          <input id="oMa" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_...">
+          <button type="submit">Kết nối</button>
+        </div>
+      </form>
+      <button id="ngat" class="an" type="button">Ngắt kết nối máy này</button>
     </div>
   </aside>
   <main class="phai" id="noiDung"></main>
 </div>
 
 <script>
-const KHOA_LUU = "san-viec-da-nop";
+const KHOA_LUU = "san-viec-da-nop", KHOA_MA = "san-viec-ma", KHOA_CHO = "san-viec-cho-luu";
+const API = "https://api.github.com/repos/k22anguyenquynhtrang-max/viec-lam/contents/da_nop.json";
 const THU = ["Chủ nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
 let daNop = {}, duLieu = null, boLoc = "tat-ca", chuTim = "";
+let ma = "", choLuu = {}, henLuu = null, dangLuu = false;
 
-function docLuu(){ try { daNop = JSON.parse(localStorage.getItem(KHOA_LUU) || "{}") || {}; } catch(e){ daNop = {}; } }
-function ghiLuu(){ try { localStorage.setItem(KHOA_LUU, JSON.stringify(daNop)); } catch(e){} }
+const doc = (k, macDinh) => { try { const v = localStorage.getItem(k); return v === null ? macDinh : JSON.parse(v); } catch(e){ return macDinh; } };
+const ghi = (k, v) => { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, JSON.stringify(v)); } catch(e){} };
+function docLuu(){
+  daNop = doc(KHOA_LUU, {}) || {}; ma = doc(KHOA_MA, "") || "";
+  // ban cu chi luu tren may: dua cac tick cu vao hang cho de day len mang
+  choLuu = doc(KHOA_CHO, null) || {...daNop};
+}
+function ghiLuu(){ ghi(KHOA_LUU, daNop); ghi(KHOA_CHO, choLuu); }
+
+/* ---- dau tick luu trong repo viec-lam (file da_nop.json) ---- */
+const b64d = s => decodeURIComponent(escape(atob(s.replace(/\n/g, ""))));
+const b64e = s => btoa(unescape(encodeURIComponent(s)));
+const gioPhut = () => new Date().toTimeString().slice(0, 5);
+const dauGoi = () => ({Accept: "application/vnd.github+json", ...(ma ? {Authorization: "Bearer " + ma} : {})});
+
+async function layTuMang(){
+  const r = await fetch(API, {headers: dauGoi(), cache: "no-store"});
+  if(r.status === 404) return {du: {}, sha: null};
+  if(r.status === 401) throw new Error("ma");
+  if(!r.ok) throw new Error(r.status);
+  const j = await r.json();
+  return {du: JSON.parse(b64d(j.content) || "{}"), sha: j.sha};
+}
+
+function baoTrangThai(chu, kieu){
+  const el = document.getElementById("trangThai");
+  el.textContent = chu; el.className = "trang-thai" + (kieu ? " " + kieu : "");
+  document.getElementById("formMa").classList.toggle("an", !!ma);
+  document.getElementById("ngat").classList.toggle("an", !ma);
+}
+function baoBinhThuong(){
+  if(!ma) return baoTrangThai("Máy này chưa kết nối: xem được tick, nhưng tick mới chỉ lưu trên máy này.");
+  const cho = Object.keys(choLuu).length;
+  baoTrangThai(cho ? `Còn ${cho} tick chưa lưu, đang thử lại...` : `Tick tự lưu lên mạng. Cập nhật lúc ${gioPhut()}.`, cho ? "" : "ok");
+}
+
+function apChoLuu(du){ for(const [k, v] of Object.entries(choLuu)) v ? du[k] = v : delete du[k]; return du; }
+
+async function capNhatTick(){
+  try {
+    const {du} = await layTuMang();
+    daNop = apChoLuu(du); ghiLuu(); veLaiTick(); baoBinhThuong();
+  } catch(e){
+    if(e.message === "ma"){ baoTrangThai("Mã hết hạn hoặc sai, dán mã mới.", "loi"); ma = ""; ghi(KHOA_MA, null); document.getElementById("formMa").classList.remove("an"); }
+    else baoTrangThai("Chưa lấy được tick trên mạng, đang dùng bản trên máy.", "loi");
+  }
+}
+
+function henLuuLen(){ clearTimeout(henLuu); henLuu = setTimeout(luuLenMang, 700); }
+async function luuLenMang(){
+  if(!ma || dangLuu || !Object.keys(choLuu).length) return;
+  dangLuu = true; baoTrangThai("Đang lưu...");
+  const ops = choLuu; choLuu = {}; ghiLuu();
+  try {
+    let xong = false;
+    for(let lan = 0; lan < 3 && !xong; lan++){
+      const {du, sha} = await layTuMang();
+      for(const [k, v] of Object.entries(ops)) v ? du[k] = v : delete du[k];
+      const r = await fetch(API, {method: "PUT", headers: dauGoi(), body: JSON.stringify({
+        message: "Tick da nop " + new Date().toISOString().slice(0, 16),
+        content: b64e(JSON.stringify(du, null, 1)), ...(sha ? {sha} : {})})});
+      if(r.status === 409 || r.status === 422) continue;
+      if([401, 403, 404].includes(r.status)) throw new Error("ma");
+      if(!r.ok) throw new Error(r.status);
+      daNop = apChoLuu(du); xong = true;
+    }
+    if(!xong) throw new Error("xung dot");
+    dangLuu = false; ghiLuu(); veLaiTick(); baoBinhThuong();
+    if(Object.keys(choLuu).length) henLuuLen();
+  } catch(e){
+    choLuu = {...ops, ...choLuu}; ghiLuu(); dangLuu = false;
+    if(e.message === "ma") baoTrangThai("Mã không có quyền sửa repo viec-lam, hoặc đã hết hạn. Dán mã khác.", "loi"), document.getElementById("formMa").classList.remove("an");
+    else { baoTrangThai("Chưa lưu được lên mạng, sẽ tự thử lại.", "loi"); setTimeout(henLuuLen, 15000); }
+  }
+}
+
+function veLaiTick(){
+  document.querySelectorAll(".tin").forEach(el => {
+    const k = el.dataset.khoa, xong = !!daNop[k];
+    el.classList.toggle("xong", xong);
+    el.querySelector(".o-tick input").checked = xong;
+    el.querySelector(".da-nop").textContent = xong ? "Đã nộp " + daNop[k] : "";
+  });
+  if(duLieu) { demLai(); apLoc(); }
+}
 
 const dd = s => { if(!s) return ""; const [y,m,d] = s.split("-"); return `${d}/${m}`; };
 const thu = s => { const [y,m,d] = s.split("-").map(Number); return THU[new Date(y,m-1,d).getDay()]; };
@@ -252,7 +352,9 @@ document.addEventListener("change", e => {
   if(!e.target.matches(".o-tick input")) return;
   const el = e.target.closest(".tin"), k = el.dataset.khoa;
   if(e.target.checked) daNop[k] = homNay(); else delete daNop[k];
+  choLuu[k] = e.target.checked ? daNop[k] : null;
   ghiLuu();
+  if(ma) henLuuLen(); else baoBinhThuong();
   el.classList.toggle("xong", e.target.checked);
   el.querySelector(".da-nop").textContent = e.target.checked ? "Đã nộp " + daNop[k] : "";
   demLai();
@@ -269,23 +371,28 @@ document.querySelectorAll(".loc button").forEach(b => b.addEventListener("click"
 }));
 document.getElementById("tim").addEventListener("input", e => { chuTim = e.target.value.trim().toLowerCase(); apLoc(); });
 
-document.getElementById("saoLuu").addEventListener("click", () => {
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([JSON.stringify(daNop, null, 1)], {type: "application/json"}));
-  a.download = "san-viec-da-nop.json"; a.click();
+document.getElementById("formMa").addEventListener("submit", async e => {
+  e.preventDefault();
+  const v = document.getElementById("oMa").value.trim();
+  if(!v) return;
+  ma = v; ghi(KHOA_MA, v); document.getElementById("oMa").value = "";
+  baoTrangThai("Đang kiểm mã...");
+  await capNhatTick();
+  if(ma){ if(Object.keys(choLuu).length) henLuuLen(); else baoBinhThuong(); }
 });
-document.getElementById("khoiPhuc").addEventListener("click", () => document.getElementById("fileKhoiPhuc").click());
-document.getElementById("fileKhoiPhuc").addEventListener("change", async e => {
-  const f = e.target.files[0]; if(!f) return;
-  try { Object.assign(daNop, JSON.parse(await f.text())); ghiLuu(); ve(); } catch(err){ alert("File sao lưu không đọc được."); }
-});
+document.getElementById("ngat").addEventListener("click", () => { ma = ""; ghi(KHOA_MA, null); baoBinhThuong(); });
+
+// tu cap nhat: khi quay lai tab va moi 2 phut
+document.addEventListener("visibilitychange", () => { if(!document.hidden) capNhatTick(); });
+setInterval(() => { if(!document.hidden && !dangLuu) capNhatTick(); }, 120000);
 
 docLuu();
 fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
   duLieu = d;
   const [ng, gio] = (d.cap_nhat || "").split(" ");
-  document.getElementById("capNhat").textContent = ng ? `Cập nhật ${dd(ng)} lúc ${gio}` : "";
+  document.getElementById("capNhat").textContent = ng ? `Tin cập nhật ${dd(ng)} lúc ${gio}` : "";
   ve();
+  capNhatTick().then(() => { if(ma && Object.keys(choLuu).length) henLuuLen(); });
 }).catch(() => {
   document.getElementById("capNhat").textContent = "";
   document.getElementById("noiDung").innerHTML = '<p class="trong">Không tải được dữ liệu. Thử tải lại trang.</p>';
