@@ -59,6 +59,8 @@ h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;margin:0;letter-spacing:-.
 .muc-luc small.du{color:var(--xong);font-weight:600}
 .chan{margin-top:auto;color:var(--mo);font-size:12px;line-height:1.5}
 .chan button{border:0;background:none;padding:0;color:var(--chinh);font:inherit;text-decoration:underline;cursor:pointer}
+.tim-upwork a{font-size:14px}
+.ghi-upwork{color:var(--mo);font-size:12px;margin-top:6px;line-height:1.5}
 .ket-noi{display:flex;flex-direction:column;gap:8px;font-size:13px}
 .trang-thai{color:var(--nhat)}
 .trang-thai.ok{color:var(--xong)}
@@ -153,6 +155,11 @@ h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;margin:0;letter-spacing:-.
     <nav>
       <div class="muc-luc-tieu">Theo ngày</div>
       <ul class="muc-luc" id="mucLuc"></ul>
+    </nav>
+    <nav>
+      <div class="muc-luc-tieu">Freelance trên Upwork</div>
+      <ul class="muc-luc tim-upwork" id="timUpwork"></ul>
+      <div class="ghi-upwork">Đã lọc: khách đã xác minh thanh toán, dưới 10 đề xuất, mức Entry/Intermediate. Mở link, bấm Save search để app Upwork báo tin mới.</div>
     </nav>
     <div class="chan ket-noi">
       <div id="trangThai" class="trang-thai">Đang lấy dấu tick...</div>
@@ -381,6 +388,19 @@ document.getElementById("formMa").addEventListener("submit", async e => {
   if(ma){ if(Object.keys(choLuu).length) henLuuLen(); else baoBinhThuong(); }
 });
 document.getElementById("ngat").addEventListener("click", () => { ma = ""; ghi(KHOA_MA, null); baoBinhThuong(); });
+
+// cac bo tim Upwork da loc san (khach da xac minh thanh toan, duoi 10 de xuat, Entry/Intermediate, moi nhat)
+const UPWORK = [
+  ["Chatbot, ManyChat", 'chatbot OR manychat OR "chatbot flow"'],
+  ["Web Framer", 'framer OR "framer website"'],
+  ["AI agent, tự động hoá", 'n8n OR "ai agent" OR "ai automation"'],
+  ["Nội dung du lịch", '"travel content" OR "travel writer" OR "tourism content"'],
+  ["Nghiên cứu, khảo sát", '"market research" OR "desk research" OR "competitor research"'],
+];
+document.getElementById("timUpwork").innerHTML = UPWORK.map(([ten, q]) => {
+  const u = "https://www.upwork.com/nx/search/jobs/?" + new URLSearchParams({q, payment_verified: "1", proposals: "0-4,5-9", contractor_tier: "1,2", sort: "recency"});
+  return `<li><a href="${u}" target="_blank" rel="noopener"><b>${ten}</b><small>mở</small></a></li>`;
+}).join("");
 
 // tu cap nhat: khi quay lai tab va moi 2 phut
 document.addEventListener("visibilitychange", () => { if(!document.hidden) capNhatTick(); });
