@@ -1,6 +1,52 @@
 {
  "ngay": [
   {
+   "ngay": "2026-11-21",
+   "tin": [
+    {
+     "khoa": "https://himalayas.app/companies/rustlabs/jobs/image-edit-qa-reviewer-photoshop-ai-training-usd-1-5-task",
+     "ten": "Image Edit QA Reviewer (Photoshop), AI Training (USD 1.5/task)",
+     "cong_ty": "RustLabs",
+     "link": "https://himalayas.app/companies/rustlabs/jobs/image-edit-qa-reviewer-photoshop-ai-training-usd-1-5-task?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "AI",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam và 11 nước khác",
+     "loai": "Contractor",
+     "dang": "2026-11-21",
+     "canh_bao": [],
+     "mo_ta": "RustLabs is hiring photo retouchers and creative QA reviewers to check AI image edits against written guidelines.\nWhat you will do\n- Compare edited images with their instructions and spot errors\n- Rate edit quality and write short, clear notes\n- Work through review queues accurately and quickly\nYou need\n- 1+ years of photo retouching, compositing or creative QA\n- Working Photoshop skills and strong written English\nPay and terms\n- USD 1.5 per approved task (each takes about 15 to 20 minutes), fully remote, independent contract\nHow to apply\nClick Apply and fill in our 2-minute form.\nOriginally posted on Himalayas"
+    },
+    {
+     "khoa": "https://himalayas.app/companies/hillside-assets-limited/jobs/market-specialist",
+     "ten": "Market Specialist",
+     "cong_ty": "HILLSIDE ASSETS LIMITED",
+     "link": "https://himalayas.app/companies/hillside-assets-limited/jobs/market-specialist?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "40,000–50,000 USD/năm (khoảng 110tr/tháng)",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Full Time",
+     "dang": "2026-11-20",
+     "canh_bao": [],
+     "mo_ta": "HILLSIDE ASSETS LIMITED is an international company focused on digital assets, financial markets, market research, and data-driven trading solutions. We are building a team of motivated specialists interested in understanding market behavior, identifying emerging trends, and developing practical expertise in a dynamic financial environment.\nWe are looking for a Market Specialist to support our market research and day-to-day analytical operations. This position is suitable for candidates at the beginning of their professional journey who are eager to learn, work with real market data, and develop their understanding of digital asset markets.\nLocation: Remote — Worldwide\nReports to: Senior Market Specialist\nType: Full-time / Flexible\nExperience: Entry-level\nTraining: Provided\nAbout the Role\n- This is an entry-level position combining market monitoring, basic research, and operational support.\n- You will work alongside experienced market specialists, gradually developing the skills needed to understand market movements, interpret relevant data, and support informed decision-making.\n- Your work will involve observing digital asset markets, following price movements and liquidity, reviewing market developments, and helping the team maintain an up-to-date understanding of market activity.\n- No previous professional experience is required. We value curiosity, analytical thinking, responsibility, and a willingness to learn.\nMarket Monitoring\n- Monitor digital asset markets and follow daily price movements and market activity.\n- Observe liquidity, trading volumes, and emerging ..."
+    }
+   ],
+   "da_quet": 254,
+   "da_bo": {
+    "loại việc không làm": 8,
+    "không thuộc nhóm hợp": 2,
+    "đòi ngoại ngữ khác": 2,
+    "đã nộp hoặc đã bỏ": 1
+   }
+  },
+  {
    "ngay": "2026-11-20",
    "tin": [
     {
@@ -366,5 +412,5 @@
    "da_bo": {}
   }
  ],
- "cap_nhat": "2026-11-20 13:49"
+ "cap_nhat": "2026-11-21 14:54"
 }
