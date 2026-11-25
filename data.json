@@ -1,6 +1,17 @@
 {
  "ngay": [
   {
+   "ngay": "2026-11-25",
+   "tin": [],
+   "da_quet": 255,
+   "da_bo": {
+    "loại việc không làm": 12,
+    "cấp cao": 1,
+    "không rõ là tin cho người mới": 4,
+    "công ty đã bỏ": 1
+   }
+  },
+  {
    "ngay": "2026-11-24",
    "tin": [],
    "da_quet": 264,
@@ -476,5 +487,5 @@
    "da_bo": {}
   }
  ],
- "cap_nhat": "2026-11-24 17:36"
+ "cap_nhat": "2026-11-25 16:26"
 }
