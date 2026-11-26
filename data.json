@@ -1,6 +1,35 @@
 {
  "ngay": [
   {
+   "ngay": "2026-11-26",
+   "tin": [
+    {
+     "khoa": "https://himalayas.app/companies/axipro/jobs/junior-seo-specialist",
+     "ten": "Junior SEO Specialist",
+     "cong_ty": "Axipro",
+     "link": "https://himalayas.app/companies/axipro/jobs/junior-seo-specialist?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nội dung & Marketing",
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "15–25 USD/giờ",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Part Time",
+     "dang": "2026-11-26",
+     "canh_bao": [],
+     "mo_ta": "About Axipro\nAxipro gets fast-growing B2B companies ready for their security and compliance audits: SOC 2, ISO 27001, ISO 42001, HIPAA, GDPR and more, plus penetration testing. We’ve helped 300+ companies get compliant, with a team of 35+ people and entities in Bahrain, the UK and the US.\nWe’re a Drata Elite Partner, partner with Vanta, and are CREST certified. Our pitch is simple: readiness in about six weeks, real humans doing the work, and fixed fees starting at $4,000.\nAbout the role\nYou’ll run ’s organic search and AI visibility day to day, so our Head of Growth can focus on other opportunities. He sets the strategy and signs off the work; you do the research, write the briefs and drafts, refresh what’s already ranking, and report on what’s moving.\nYou’ll work alongside a small growth team: a web editor who publishes and builds pages in Elementor, an outreach specialist who handles link building and media placements, and a partnerships assistant. You’ll report to the Head of Growth and Partnerships.\nWe use AI heavily, with our own Claude-based workflows for outlines, drafts and refresh briefs. We’re not hiring someone to paste in AI output. We want someone with judgement: someone who can tell when a draft is wrong, thin or off-brand, fix it, and add something a reader hasn’t seen before.\nWhat you'll do\nMost of your time goes on improving pages we already have and building the new ones we need.\nAreaShare of timeContent refreshes30%New articles and pages30%Research, AI visibility and competitors15%Technical SEO and reporting15%Content syndication10%\nContent refreshes\n- ..."
+    }
+   ],
+   "da_quet": 255,
+   "da_bo": {
+    "công ty đã bỏ": 4,
+    "loại việc không làm": 4,
+    "không thuộc nhóm hợp": 1,
+    "cấp cao": 1
+   }
+  },
+  {
    "ngay": "2026-11-25",
    "tin": [],
    "da_quet": 255,
@@ -487,5 +516,5 @@
    "da_bo": {}
   }
  ],
- "cap_nhat": "2026-11-25 16:26"
+ "cap_nhat": "2026-11-26 16:04"
 }
