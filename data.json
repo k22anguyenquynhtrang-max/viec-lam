@@ -1,6 +1,50 @@
 {
  "ngay": [
   {
+   "ngay": "2026-11-27",
+   "tin": [
+    {
+     "khoa": "https://himalayas.app/companies/finmid/jobs/entrepreneur-in-residence-intern-ops-focus",
+     "ten": "Entrepreneur in Residence Intern - Ops Focus",
+     "cong_ty": "Finmid",
+     "link": "https://himalayas.app/companies/finmid/jobs/entrepreneur-in-residence-intern-ops-focus?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu"
+     ],
+     "luong": "Không ghi",
+     "noi": "Mọi nước (có Việt Nam)",
+     "loai": "Full Time",
+     "dang": "2026-11-27",
+     "canh_bao": [],
+     "mo_ta": "About finmid\nfinmid is a platform enabling software businesses to grow their revenue by embedding financial services in their product through a single integration. By productizing the complexity of financial services, finmid empowers companies to offer financial services where FinTech isn't the mission, but enables the mission. More about who we are and what we do here.\nAbout the opportunity\nAs an Entrepreneur in Residence, you’ll take full ownership of a business-critical area at finmid and build it into something that scales with the company. You’ll be responsible for one of our key partner networks across Europe, deciding how it develops and making sure it performs. At the same time, you’ll work hand in hand with our Legal Counsel to bring a new part of our work in-house and build it from the ground up.\nThis role is for someone who likes to solve problems from first principles, wants real responsibility early in their career, and gets energy from building things that didn’t exist before. You’ll set the direction, make the calls, and see them through to execution.\nYou’ll work closely with leadership and get the room to build things your own way. The internship runs for 6 months full-time. For the right person, it is the first step toward a permanent role and, over time, a leadership role at finmid.\nIn this role, you will\n- Take full ownership of one of our key partner networks across Europe and set its direction.\n- Grow the network and hold it to a high standard of performance.\n- Partner with our Legal Counsel to build a new in-house capability from scratch.\n- Turn open ..."
+    },
+    {
+     "khoa": "https://himalayas.app/companies/cybertexex/jobs/kyc-officer-remote-vietnam",
+     "ten": "KYC Officer (remote, Vietnam)",
+     "cong_ty": "Cybertexex",
+     "link": "https://himalayas.app/companies/cybertexex/jobs/kyc-officer-remote-vietnam?utm_source=api",
+     "nguon": "Himalayas",
+     "nhom": [
+      "Nghiên cứu & Dữ liệu",
+      "Có tiếng Việt"
+     ],
+     "luong": "Không ghi",
+     "noi": "Việt Nam",
+     "loai": "Full Time",
+     "dang": "2026-11-26",
+     "canh_bao": [],
+     "mo_ta": "Cybertexex is a global provider of automated KYC, watchlist screening and behavior analytics solutions for digital businesses. We are currently expanding our team and hiring a KYC Officer to protect the product and its users from fraud while supporting business growth and maintaining positive customer experience.\n🚀 If you are solution-oriented, passionate about optimizing processes and performance, this is your chance to join a great team!\n✅ What You’ll Do:\n- Detect and prevent fraud by analyzing suspicious signs in the data.\n- Prepare and label fraud datasets for machine learning.\n- Deliver high-quality, timely fraud analysis while enhancing customer satisfaction and fraud detection frameworks.\n🧠 Must-have skills:\n- Proficient in PC use;\n- English language proficiency at B2 levelor higher and other specific languages (on request);\n- Understanding of KYC/AML processes and at least six months of hands-on experience as a Fraud/Risk Analyst, Identity Verification Specialist, KYC/AML Analyst, Trust & Safety Specialist in relevant industries (fintech, crypto, banking, payment systems, marketplace, etc.);\n- Hands-on experience in fraud prevention and in identifying forged or altered Proof of Addressdocuments, including generated electronic statements, modified PDF templates, and fake utility bills;\n- Prior hands-on experience in document fraud detection (identity fraud analysis, identifying document alterations, comparing document security features, performing in-depth manual checks of international identity documents particularly for edge cases, high-risk profiles, and system ..."
+    }
+   ],
+   "da_quet": 266,
+   "da_bo": {
+    "loại việc không làm": 4,
+    "công ty đã bỏ": 13,
+    "không rõ là tin cho người mới": 1
+   }
+  },
+  {
    "ngay": "2026-11-26",
    "tin": [
     {
@@ -516,5 +560,5 @@
    "da_bo": {}
   }
  ],
- "cap_nhat": "2026-11-26 16:04"
+ "cap_nhat": "2026-11-27 16:20"
 }
