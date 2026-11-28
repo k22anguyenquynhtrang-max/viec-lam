@@ -1,6 +1,18 @@
 {
  "ngay": [
   {
+   "ngay": "2026-11-28",
+   "tin": [],
+   "da_quet": 268,
+   "da_bo": {
+    "đòi 5 năm": 1,
+    "không thuộc nhóm hợp": 1,
+    "loại việc không làm": 7,
+    "không rõ là tin cho người mới": 1,
+    "đòi ngoại ngữ khác": 1
+   }
+  },
+  {
    "ngay": "2026-11-27",
    "tin": [
     {
@@ -560,5 +572,5 @@
    "da_bo": {}
   }
  ],
- "cap_nhat": "2026-11-27 16:20"
+ "cap_nhat": "2026-11-28 15:37"
 }
